@@ -1,7 +1,7 @@
 echo "# Geek-Folio" >> README.md
 git init
 git add .
-git commit -m "first commit"
+git commit -m "New Some Tag and Init"
 git branch -M main
 git remote add origin https://github.com/NFRIDOY/Geek-Folio.git
 git push -u origin main

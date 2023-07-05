@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 300%;
+}
+nav {
+    
+    background-color: #424141;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu {
+    
+}
+.menuS li{
+    margin: 10px;
+    font-weight: lighter;
+}
+.logo {
+    color: white;
+    display: flex;
+    
+}
+nav div ul {
+    display: flex;
+}
+.banner {
+    /* background-color: #1E1E1E; */
+    background-image: url("./images/background.png"), linear-gradient(45deg, black ,rgb(52, 47, 47));
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-explore {
+    background-color: red;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 20px 0px ;
+}
+.text-middle {
+    text-align: center;
+}
+.text-left {
+    text-align: start;
+}
+.text-title {
+    font-size: 55px;
+    font-weight: bolder;
+    /* margin: 30px; */
+}
+main {
+    background-image: url("./images/background.png"), linear-gradient(45deg, black ,rgb(52, 47, 47));
+}
+.service {
+    
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.box {
+    width: 200px;
+    height: 250px;
+    background-color: black;
+    padding: 25px;
+}
+.details-btn {
+    background-color: darkblue;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
