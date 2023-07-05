@@ -58,7 +58,23 @@ nav div ul {
     font-weight: bolder;
     /* margin: 30px; */
 }
+.text-black, .about div ul li{
+    color:#000 !important;
+    /* text-decoration: none; */
+}
 main {
+    /* background-image: url("./images/background.png"), linear-gradient(45deg, black ,rgb(52, 47, 47)); */
+}
+.about-section {
+    height: 100vh;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #000 !important;
+}
+.serviceSection {
     background-image: url("./images/background.png"), linear-gradient(45deg, black ,rgb(52, 47, 47));
 }
 .service {
